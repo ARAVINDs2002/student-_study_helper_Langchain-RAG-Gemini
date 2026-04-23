@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student AI Assistant</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2>AI Assistant</h2>
+                <p>Your educational helper</p>
+            </div>
+            
+            <div class="mode-toggle">
+                <label>Mode:</label>
+                <div class="toggle-container">
+                    <button id="btn-gemini" class="toggle-btn active">Ask AI</button>
+                    <button id="btn-rag" class="toggle-btn">Chat with Doc</button>
+                </div>
+            </div>
+
+            <div id="upload-section" class="upload-section hidden">
+                <h3>Document Context</h3>
+                <p>Upload a .pdf or .txt to query it directly.</p>
+                <input type="file" id="file-input" accept=".pdf,.txt">
+                <button id="btn-upload" class="primary-btn">Upload File</button>
+                <div id="upload-status" class="status-msg"></div>
+            </div>
+            
+            <div class="sidebar-footer">
+                <div class="status-indicator" id="status-indicator">
+                    <div class="dot" id="status-dot"></div>
+                    <span id="status-label">Connecting...</span>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Chat Area -->
+        <main class="chat-area">
+            <div id="chat-history" class="chat-history">
+                <div class="message ai-message">
+                    👋 Hello! I'm your Student AI Assistant. Ask me anything, or upload a document to get started.
+                </div>
+            </div>
+            
+            <div id="loading-indicator" class="loading hidden">
+                <div class="spinner"></div>
+                <span>Curating your answer...</span>
+            </div>
+
+            <div class="input-area">
+                <input type="text" id="chat-input" placeholder="Type your question here..." autocomplete="off">
+                <button id="btn-send" class="primary-btn shrink">Send</button>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
