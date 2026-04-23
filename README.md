@@ -24,7 +24,7 @@
 
 ### 🤖 Ask AI Mode
 In this mode, the AI provides clear explanations, relevant web images, and a dynamic flowchart if a process is detected.
-<video src="assets/ask_ai.mp4" width="800" controls muted></video>
+![Ask AI Mode Demo](assets/ask_ai.mp4)
 
 ### 📄 Ask Document Mode (RAG)
 *Placeholder for Ask Document Demo Video*
