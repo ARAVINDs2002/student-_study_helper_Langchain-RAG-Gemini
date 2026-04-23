@@ -24,12 +24,12 @@
 
 ### 🤖 Ask AI Mode
 In this mode, the AI provides clear explanations, relevant web images, and a dynamic flowchart if a process is detected.
-<img src="assets/ask_ai.gif" width="900" alt="Ask AI Demo">
+<video src="assets/ask_ai.mp4" width="900" controls autoplay loop muted></video>
 
 ### 📄 Ask Document Mode (RAG)
-*Placeholder for Ask Document Demo GIF*
+*Placeholder for Ask Document Demo Video*
 In this mode, you can upload your own study materials (PDF/TXT) and the AI will answer questions based strictly on that content.
-<!-- <img src="assets/ask_document.gif" width="900" alt="Ask Document Demo"> -->
+<!-- <video src="assets/ask_document.mp4" width="900" controls autoplay loop muted></video> -->
 
 ---
 
