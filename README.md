@@ -24,7 +24,7 @@
 
 ### 🤖 Ask AI Mode
 In this mode, the AI provides clear explanations, relevant web images, and a dynamic flowchart if a process is detected.
-<video src="https://github.com/ARAVINDs2002/student-_study_helper_Langchain-RAG-Gemini/raw/main/assets/ask_ai.mp4" width="900" controls autoplay loop muted></video>
+![Ask AI Demo](https://github.com/ARAVINDs2002/student-_study_helper_Langchain-RAG-Gemini/raw/main/assets/ask_ai.mp4)
 
 ### 📄 Ask Document Mode (RAG)
 *Placeholder for Ask Document Demo Video*
