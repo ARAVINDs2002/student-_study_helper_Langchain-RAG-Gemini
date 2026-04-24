@@ -30,7 +30,7 @@ In this mode, the AI provides clear explanations, relevant web images, and a dyn
 ### 📄 Ask RAG Mode (RAG)
 In this mode, you can upload your own study materials (PDF/TXT) and the AI will answer questions based strictly on that content.
 
-![Ask AI Mode Demo](https://github.com/ARAVINDs2002/student-_study_helper_Langchain-RAG-Gemini/raw/main/assets/ask_ai.gif)
+![Ask AI Mode Demo](https://github.com/ARAVINDs2002/student-_study_helper_Langchain-RAG-Gemini/raw/main/assets/ask_rag.gif)
 
 ## 🧠 What This App Does
 
