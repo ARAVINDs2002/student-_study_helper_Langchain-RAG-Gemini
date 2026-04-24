@@ -26,12 +26,19 @@
 In this mode, the AI provides clear explanations, relevant web images, and a dynamic flowchart if a process is detected.
 ![Ask AI Mode Demo](https://github.com/ARAVINDs2002/student-_study_helper_Langchain-RAG-Gemini/raw/main/assets/ask_ai.gif)
 
-### 📄 Ask Document Mode (RAG)
-*Placeholder for Ask Document Demo Video*
-In this mode, you can upload your own study materials (PDF/TXT) and the AI will answer questions based strictly on that content.
-<!-- <video src="assets/ask_document.mp4" width="900" controls autoplay loop muted></video> -->
+## 📺 Visual Demos
+
+### 🤖 Ask AI Mode
+In this mode, the AI provides clear explanations, relevant web images, and a dynamic flowchart if a process is detected.
+
+![Ask AI Mode Demo](https://github.com/ARAVINDs2002/student-_study_helper_Langchain-RAG-Gemini/raw/main/assets/ask_ai.gif)
 
 ---
+
+### 📄 Ask Document Mode (RAG)
+In this mode, you can upload your own study materials (PDF/TXT) and the AI will answer questions based strictly on that content.
+
+![Ask RAG Mode Demo](https://github.com/ARAVINDs2002/student-_study_helper_Langchain-RAG-Gemini/raw/main/assets/ask_rag.gif)
 
 ## 🧠 What This App Does
 
